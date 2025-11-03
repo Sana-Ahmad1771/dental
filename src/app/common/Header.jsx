@@ -100,7 +100,7 @@ const Header = () => {
           <ul className="hidden lg:flex items-center gap-10 text-[16px] font-medium tracking-wide">
             <li>
               <Link href="/" className={navItemClass("/")}>
-                Home <span className={navItemBorderClass("/")} />
+                Home 1 <span className={navItemBorderClass("/")} />
               </Link>
             </li>
             <li>
