@@ -104,7 +104,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href="/about" className={navItemClass("/about")}>
+              <Link href="https://dentalhome2.vercel.app/" className={navItemClass("/about")}>
                 Home 2 <span className={navItemBorderClass("/about")} />
               </Link>
             </li>
