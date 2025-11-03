@@ -53,7 +53,7 @@ const Header = () => {
                 onClick={() => copyToClipboard("(239) 555-0108")}
                 className="cursor-pointer hover:underline underline-offset-4"
               >
-                +971- 2- 6760555
+                +971- 2- xxxxx
               </span>
             </span>
             <span className="flex items-center gap-2">
@@ -62,7 +62,7 @@ const Header = () => {
                 onClick={() => copyToClipboard("info@binali.xyz")}
                 className="cursor-pointer hover:underline underline-offset-4"
               >
-                info@binalimed.com
+                info@Dentalclinic.com
               </span>
             </span>
           </div>
@@ -105,7 +105,7 @@ const Header = () => {
             </li>
             <li>
               <Link href="/about" className={navItemClass("/about")}>
-                About <span className={navItemBorderClass("/about")} />
+                Home 2 <span className={navItemBorderClass("/about")} />
               </Link>
             </li>
             <li className="relative flex items-center group">
@@ -119,8 +119,8 @@ const Header = () => {
               ></span>
             </li>
             <li>
-              <Link href="/contact" className={navItemClass("/contact")}>
-                Contact <span className={navItemBorderClass("/contact")} />
+              <Link href="https://dentalclinichome3.vercel.app/" className={navItemClass("/contact")}>
+                Home 3 <span className={navItemBorderClass("/contact")} />
               </Link>
             </li>
           </ul>

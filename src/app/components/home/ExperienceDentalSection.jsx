@@ -84,39 +84,39 @@ export default function ExperienceDentalSection() {
   const features = [
     {
       id: 1,
-      icon: <FaMagic className="text-2xl text-accent" />,
+      icon: <FaMagic className="text-[28px] text-accent" />,
       title: "INSTANT RESULTS",
       description:
         "State-of-the-art technology delivering faster, more precise results.",
     },
     {
       id: 2,
-      icon: <FaAward className="text-2xl text-accent" />,
+      icon: <FaAward className="text-[28px] text-accent" />,
       title: "DECADES OF EXPERIENCE",
       description: "Our team is led by renowned clinicians.",
     },
     {
       id: 3,
-      icon: <FaCalendarCheck className="text-2xl text-accent" />,
+      icon: <FaCalendarCheck className="text-[28px] text-accent" />,
       title: "ONE-CLICK BOOKING",
       description: "Open evenings/weekends, same/next day.",
     },
     {
       id: 4,
-      icon: <FaDollarSign className="text-2xl text-accent" />,
+      icon: <FaDollarSign className="text-[28px] text-accent" />,
       title: "TRANSPARENT PRICING",
       description:
         "Straightforward pricing, insurance eligible, no surprises or up-sells.",
     },
     {
       id: 5,
-      icon: <FaTooth className="text-2xl text-accent" />,
+      icon: <FaTooth className="text-[28px] text-accent" />,
       title: "PAIN-FREE TREATMENTS",
       description: "No needles. No drills. Just comfort-first dentistry.",
     },
     {
       id: 6,
-      icon: <FaSpa className="text-2xl text-accent" />,
+      icon: <FaSpa className="text-[28px] text-accent" />,
       title: "COMPLIMENTARY COMFORTS",
       description:
         "Unwind with eye masks, meditations, and massage boots—all on the house.",
@@ -187,11 +187,11 @@ export default function ExperienceDentalSection() {
           <div className="grid sm:grid-cols-2 gap-10">
             {features.map((feature) => (
               <div key={feature.id} className="flex items-start gap-4">
-                <div className="bg-white border border-secondary text-white rounded-full w-10 h-10 flex items-center justify-center shrink-0">
+                <div className="bg-white border border-secondary text-white rounded-full w-14 h-14 flex items-center justify-center shrink-0">
                   {feature.icon}
                 </div>
                 <div>
-                  <h3 className="font-semibold text-primary text-md tracking-wide">
+                  <h3 className="font-semibold text-primary text-lg tracking-wide">
                     {feature.title}
                   </h3>
                   <p className="text-paragraph text-sm mt-1">
